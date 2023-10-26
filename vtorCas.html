@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="vtorCas.css">
+  <style type="text/css">
+    p { text-indent: 1ex;}
+    em { font-weight: bold; }
+    a.nodec { text-decoration: none;} 
+    a:hover { text-decoration: underline;}
+    li em { font-weight: bold; color: blue;}
+    div {
+      box-shadow: 25px 25px 50px dimgrey;
+      
+      width: 20%;
+    }
+    img {
+      -webkit-transition: -webkit-transform 4s;
+      -moz-transition: -moz-transform 4s;
+      transition: transform 4s;
+    }
+    img:hover {
+      -webkit-transform: rotate(360deg) scale(2, 2);
+      -moz-transform: rotate(360deg) scale(2, 2);
+      transform: rotate(360deg) scale(2, 2);
+    }
+    .special { color: purple; 
+              text-shadow: -4px 4px 6px dimgrey;
+              border: 3px solid navy;
+              border-top-left-radius: 15px;
+              width: 20%;}
+    .p1 { position: absolute;
+          top: 0px;
+          left: 0px;
+          z-index: 1; }
+    .p2 { position: absolute;
+          z-index: 2; }
+    .p3 { position: relative;
+          top: -1ex; } /* go diga elemenot nagore (top) za -1 od malo x; za shift left togash right: -1ex */
+    body {
+      background-image: url(prvCas.jpg);
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-color: bisque;
+    }
+    nav {
+      background-color: blue;
+      border: 1px;
+    }
+    nav ul {
+      display: none;
+    }
+    nav:hover ul {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <p style="font-size: 20pt; color: rgb(255, 0, 64);">
+    <em>nvreihnvievinreijp</em>
+  </p>
+  <p class="special">
+    vnwpwmpwr
+  </p>
+  <p>
+    <em>go to class</em> <a class="nodec" href="https://code.visualstudio.com">link</a>
+  </p>
+  <li><em>vgnezdeno em</em></li>
+  <h1>treba da e overlined</h1>
+  <div>
+    <nav>Menu
+      <ul>mvew;</ul>
+      <ul>vwee</ul>
+    </nav>
+  </div>
+  <img src="prvCas.jpg" alt="prvCas" width="40px">
+</body>
+</html>
